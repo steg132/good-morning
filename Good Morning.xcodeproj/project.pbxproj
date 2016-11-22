@@ -16,8 +16,8 @@
 		942738871DBA902A0055F746 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 6;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -227,7 +227,10 @@
 		942738911DBA902A0055F746 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = W3AFUF35JA;
+				INFOPLIST_FILE = "$(SRCROOT)/Good Morning/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.schumacher.good-morning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -236,7 +239,10 @@
 		942738921DBA902A0055F746 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = W3AFUF35JA;
+				INFOPLIST_FILE = "$(SRCROOT)/Good Morning/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.schumacher.good-morning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

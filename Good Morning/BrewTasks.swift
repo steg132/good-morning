@@ -4,7 +4,7 @@
 
 import Foundation
 
-class UpdateBrewTask: Task {
+internal class UpdateBrewTask: Task {
     let name = "Update Brew"
     
     func execute() -> TaskStatus {
@@ -16,7 +16,7 @@ class UpdateBrewTask: Task {
     }
 }
 
-class UpgradeBrewTask: Task {
+internal class UpgradeBrewTask: Task {
     let name = "Upgrade Brew"
     let forceUpgrade = ["git", "node"]
     

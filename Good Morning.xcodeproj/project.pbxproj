@@ -100,8 +100,7 @@
 				TargetAttributes = {
 					942738881DBA902A0055F746 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = W3AFUF35JA;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -158,7 +157,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -207,7 +205,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -230,8 +227,6 @@
 		942738911DBA902A0055F746 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				DEVELOPMENT_TEAM = W3AFUF35JA;
 				INFOPLIST_FILE = "$(SRCROOT)/Good Morning/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.schumacher.good-morning";
 				PRODUCT_NAME = good_morning;
@@ -243,8 +238,6 @@
 		942738921DBA902A0055F746 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				DEVELOPMENT_TEAM = W3AFUF35JA;
 				INFOPLIST_FILE = "$(SRCROOT)/Good Morning/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.schumacher.good-morning";
 				PRODUCT_NAME = good_morning;
@@ -275,7 +268,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -298,10 +290,8 @@
 		94E48DE71DE533F400842E2F /* Deploy */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = W3AFUF35JA;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Good Morning/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.schumacher.good-morning";

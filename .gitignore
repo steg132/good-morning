@@ -1,6 +1,6 @@
 #.gitignore
 
-bin/
+Build/
 
 # Created by https://www.gitignore.io/api/osx,xcode,swift
 

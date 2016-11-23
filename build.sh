@@ -7,14 +7,11 @@ fi
 
 [ -d "bin/" ] || mkdir "bin/"
 
-
-xcodebuild -target 'Good Morning' -scheme 'Good Morning' -configuration Release CONFIGURATION_BUILD_DIR=./Build/
+xcodebuild -target 'Good Morning' -scheme 'Good Morning' -configuration Deploy CONFIGURATION_BUILD_DIR=./build/
 
 TAR_NAME="bin/good_morning_$1.tar.gz"
 
-cd "Build"
-tar cvzf "../$TAR_NAME" "Good Morning" 
-cd ..
+tar cvzf "$TAR_NAME" "Good Morning/" "Good Morning.xcodeproj/project.pbxproj" "Good Morning.xcodeproj/project.xcworkspace/contents.xcworkspacedata"
 
 if [ "$?" -eq 0 ]; then 
 	echo "Sucessfully generated \"$TAR_NAME\""

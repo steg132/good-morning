@@ -4,12 +4,12 @@
 
 import Foundation
 
-enum TaskStatus {
+internal enum TaskStatus {
     case Success
     case Fail(Int32)
 }
 
-protocol Task {
+internal protocol Task {
     var name: String { get }
     
     func execute() -> TaskStatus

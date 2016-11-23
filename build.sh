@@ -12,7 +12,9 @@ xcodebuild -target 'Good Morning' -scheme 'Good Morning' -configuration Release 
 
 TAR_NAME="bin/good_morning_$1.tar.gz"
 
-tar cvzf $TAR_NAME "Build/Good Morning" 
+cd "Build"
+tar cvzf "../$TAR_NAME" "Good Morning" 
+cd ..
 
 if [ "$?" -eq 0 ]; then 
 	echo "Sucessfully generated \"$TAR_NAME\""
